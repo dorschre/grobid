@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "grobid"
+version = "0.1.0"
+description = ""
+authors = ["Rene Dorsch <renedorsch@yahoo.de>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+httpx = "^0.27.0"
+beautifulsoup4 = "^4.12.3"
+attrs = "^23.2.0"
+python-dateutil = "^2.8.2"
+lxml = "^5.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
